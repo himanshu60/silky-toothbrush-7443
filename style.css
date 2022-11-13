@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
 }
 .upper{
     text-align: center;
@@ -351,11 +352,7 @@ body{
 	font-family: sans-serif;
 	background-color: #e8eef3;
 }
-*{
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-}
+
 ul{
 	list-style: none;
 }
@@ -383,11 +380,7 @@ a{
     margin-top: -39px;
 }
 /*header*/
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-  }
+
   body {
 	font-family: sans-serif;
   }
@@ -546,5 +539,25 @@ a{
 width: 321px;
 	}
   }
+  .footer-item button{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 12px;
+    border: none;
+  }
+  .footer-item h5{
+width: 400px;
+margin: 10px;
+  }
+  .footer-img img{
+    height: 85px;
+    width: 300px;
+    margin: 20px;
+  }
+  .footer{
+    background-color: #ddd;
+  }
+
 
 

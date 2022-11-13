@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Survey Page</title>
     <style>
-* {
+*{
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-  }
+	margin:0;
+	padding:0;
+  
+}
   body {
 	font-family: sans-serif;
   }
@@ -171,10 +172,6 @@ width: 321px;
 	}
   }
 
-      div {
-  display: flex;
-  justify-content: space-around;
-}
 form {
   margin: 0 auto;
   margin-top: 50px;
@@ -222,9 +219,7 @@ table th {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 a{
   text-align: center;
   display: block;
@@ -269,6 +264,27 @@ h1 {
 .item button secondary{
     background-color: yellow;
 }
+.footer-item button{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 12px;
+    border: none;
+  }
+  .footer-item h5{
+width: 400px;
+margin: 10px;
+  }
+  .footer-img img{
+    height: 85px;
+    width: 300px;
+    margin: 20px;
+  }
+  .footer{
+    background-color: #ddd;
+    margin-top: 200px;
+  }
+
     </style>
   </head>
   <body>
@@ -295,7 +311,7 @@ h1 {
     <div id="create">
         
       <form>
-        <!-- Use this form for data input  -->
+      
         <input type="text" id="name" placeholder="Survey Name" />
         <select id="type">
           <option value="">Select survey Type</option>
@@ -331,6 +347,25 @@ h1 {
         
       </tbody>
     </table>
+
+    
+    <div class="footer">  <hr>
+        <div class="footer-item">
+            <button>
+            ENGLISH
+            </button>
+            <h5>
+                SurveyMonkey is brought to you by momentive.ai. Shape what's next with AI‑driven insights and experience management solutions built for the pace of modern business.
+            </h5>
+            <h3>
+                Copyright © 1999-2022 Momentive
+            </h3>
+        </div>
+        <div class="footer-img">
+        <img src="https://www.pngitem.com/pimgs/m/177-1777666_bbb-accredited-business-logo-png-transparent-png.png" alt="">
+        <img src="https://s3.amazonaws.com/integrated-apps/wprxednh/jawcrebq.png" alt="">
+                </div>
+            </div>
     
   </body>
  
